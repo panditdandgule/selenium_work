@@ -18,10 +18,10 @@ drop_down_list_element=driver.find_element_by_id('RESULT_RadioButton-9')
 drop_down_list=Select(drop_down_list_element)
 driver.maximize_window()
 #select by visible text
-#drop_down_list.select_by_visible_text('Morning')
+drop_down_list.select_by_visible_text('Morning')
 
 #select by index
-drop_down_list.select_by_index(2) #it will select afternoon
+#drop_down_list.select_by_index(2) #it will select afternoon
 
 #select by value
 #drop_down_list.select_by_value("Radio-2")
