@@ -7,7 +7,7 @@ CHROME_DRIVER_PATH = 'F:\\Scoopons\\selinium_work\\chromedriver_win32\\chromedri
 driver=webdriver.Chrome(executable_path=CHROME_DRIVER_PATH)
 
 #get url
-driver.get("https://www.googl.com")
+driver.get("https://www.google.com")
 
 driver.maximize_window()
 
