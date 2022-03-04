@@ -1,0 +1,20 @@
+Python unitest HTML TestRunner Reports
+Selenium Python Test Case using Unit Test, HTML Reports
+
+-----------------------------------------------------------
+
+We need to install html-testRunner for HTML Reports generation
+C:\WINDOWS\PANDIT\pip install html-testRunner
+
+Create one test case
+Test case: OrangeHRM login test
+1)Launch browser
+2)verify home page title
+3)verify login
+4)close browser
+
+setUpClass() -It will execute only one time before test methods start or class start
+tearDownClass() -It will execute only one time after all test methods
+
+Command to run unittest test case to generate HTML report
+PS F:\Scoopons\selinium_work\selenium_codes\pageobjectmodel> python testcase_orange_hrmlogin.py

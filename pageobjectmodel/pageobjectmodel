@@ -1,0 +1,10 @@
+Installations: selenium,html-testrunner
+
+Selenium Python Project Unit Test,POM,HTML Reports
+
+Small Project : Unit Test,POM,HTML Reports
+UnittestPOMBasedProject
+    Drivers
+    Pages
+    TestCases
+    Reportspom
