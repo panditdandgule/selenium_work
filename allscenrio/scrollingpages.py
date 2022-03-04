@@ -4,7 +4,7 @@ CHROME_DRIVER_PATH = r'F:\Scoopons\selinium_work\chromedriver_win32\chromedriver
 driver=webdriver.Chrome(executable_path=CHROME_DRIVER_PATH)
 driver.get("https://www.countries-ofthe-world.com/flags-of-the-world.html")
 
-driver.maximize_window()
+driver.maximize_window() #maximize window
 
 #Scroll down page by pixel (min to max(0-1000))
 #driver.execute_script("window.scrollBy(0,1000)","")
