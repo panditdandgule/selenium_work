@@ -14,11 +14,12 @@ class LoginTest(unittest.TestCase):
     userName="admin@yourstore.com"
     password="admin"
     CHROME_DRIVER_PATH = r'F:\Scoopons\selinium_work\chromedriver_win32\chromedriver.exe'
-    driver = webdriver.Chrome(executable_path=CHROME_DRIVER_PATH)
+
     reportsPath=r'F:\Scoopons\selinium_work\selenium_codes\unittestpombasedproject\reports'
 
     @classmethod
     def setUpClass(cls) -> None:
+        cls.driver = webdriver.Chrome(executable_path=cls.CHROME_DRIVER_PATH)
         cls.driver.get(cls.baseURL)
         cls.driver.maximize_window()
         
