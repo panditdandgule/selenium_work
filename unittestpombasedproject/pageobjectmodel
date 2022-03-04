@@ -1,0 +1,19 @@
+Installations: selenium,html-testrunner
+
+Selenium Python Project Unit Test,POM,HTML Reports
+
+Small Project : Unit Test,POM,HTML Reports
+UnittestPOMBasedProject
+    Drivers
+    PageObject
+    TestCases
+    Reports
+
+Test Cases:
+-------------------------
+1)Launch Chrome Browser
+2)Open URL :http://admin-demo.nopcommerce.com/
+3)Provider user: admin@yourstore.com
+4)Provider password: admin
+5)click on login
+6)Expected title: Dashboard nopcommerce administration
